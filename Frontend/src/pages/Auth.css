@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.box {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.textStyle {
+  color: #6c63ff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.customeButton {
+  background-color: #6c63ff;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.customeButton:hover {
+  background-color: #4c4cb7;
+}
+
+/* Navbar styles */
+.navbar {
+  background: linear-gradient(to right, #a4a350, #5f0a87); /* Replace with your gradient colors */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}

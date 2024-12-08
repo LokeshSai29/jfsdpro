@@ -1,0 +1,35 @@
+.container {
+  /* background: linear-gradient(rgb(215, 106, 255), rgba(215, 106, 255, 0)); */
+  /* background-image: linear-gradient(135deg, #c24dd0, #ff005d); */
+  /* background-image: linear-gradient(150deg, #c24dd0, #76257f); */
+  background: linear-gradient(to right, #a4a350, #5f0a87);
+  padding: 10px 70px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+/* Navbar.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menuItem {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.activeMenuItem {
+  background-color: #f0f0f0;
+  border-radius: 1.5rem;
+}
+
+.logoutButton {
+  border: 2px solid #a4a350;
+}

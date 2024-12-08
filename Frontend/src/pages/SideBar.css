@@ -1,0 +1,47 @@
+
+
+.menuItem {
+  border: 2px solid #a4a350; /* Default border */
+  padding: 10px; /* Space inside the item */
+  text-align: center; /* Center the text */
+  cursor: pointer; /* Make it clickable */
+  margin: 5px 0; /* Add spacing between items */
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth hover effect */
+}
+
+.menuItem:hover {
+  background: linear-gradient(to right, #a4a350, #5f0a87); /* Light background on hover */
+  color: white; /* Match text color to border */
+  transform: scale(1.05); /* Increase size by 5% on hover */
+  transition: transform 0.3s ease, background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.activeMenuItem {
+  color: white;
+  border-radius: 10px;
+  background: linear-gradient(to right, #a4a350, #5f0a87); /* Gradient background for active state */
+  border: 2px solid #5f0a87; /* Adjust border color for active state */
+}
+.activeMenuItem:hover {
+    background: linear-gradient(to right, #a4a350, #5f0a87); /* Light background on hover */
+    color: white; /* Match text color to border */
+    transform: scale(1.05); /* Increase size by 5% on hover */
+    transition: transform 0.3s ease, background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+  
+  
+}
+
+
+.logoutButton{
+    color: white !important;
+    background-color: #a4a350;
+    /* background: transparent; */
+  }
+  .customeButton{
+    color: white !important;
+    background-image: linear-gradient(150deg, #c24dd0, #7a72fa);
+    
+  }
+
+  
